@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Menu</title>
+    <link rel="stylesheet" href="kfc.css">
+</head>
+<body>
+    <header>
+        <h1>KFC</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div id="products">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be dynamically loaded here -->
+            </div>
+            <div id="cart-total">
+                <!-- Cart total will be displayed here -->
+            </div>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </section>
+        <section id="order">
+            <h2>Order and Payment</h2>
+            <div id="order-summary">
+                <!-- Order summary will be displayed here -->
+            </div>
+            <div id="payment">
+                <h3>Payment Options</h3>
+                <button id="pay-btn">Pay Now</button>
+            </div>
+        </section>
+    </main>
+    <script src="kfc.js"></script>
+</body>
+</html>
